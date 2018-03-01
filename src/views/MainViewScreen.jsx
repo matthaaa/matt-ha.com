@@ -1,6 +1,8 @@
 import React from 'react';
 import {Component} from 'react';
 
+// Styles
+import '../styles/main-styles.css';
 
 class MainViewScreen extends Component {
 
@@ -17,7 +19,7 @@ class MainViewScreen extends Component {
   // ==================================================
   render() {
     return (
-      <div >Hi mom!</div>
+      <div className="main-view-container">Hi mom!</div>
     );
   }
 
