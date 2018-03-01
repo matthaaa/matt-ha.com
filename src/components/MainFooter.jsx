@@ -17,7 +17,7 @@ class MainFooter extends Component {
   // ==================================================
   render() {
     return (
-      <div className="main-view-header">
+      <div className="main-view-footer">
         <p>Footer</p>
       </div>
     );
