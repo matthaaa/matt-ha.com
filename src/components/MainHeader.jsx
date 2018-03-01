@@ -1,14 +1,8 @@
 import React from 'react';
 import {Component} from 'react';
 
-// Components
-import MainHeader from '../components/MainHeader'
 
-// Styles
-import '../styles/main-styles.css';
-
-
-class MainViewScreen extends Component {
+class MainHeader extends Component {
 
   // ==================================================
   // Initialize
@@ -23,13 +17,12 @@ class MainViewScreen extends Component {
   // ==================================================
   render() {
     return (
-      <div className="main-view-container">
-        <MainHeader />
-        Hi mom!
+      <div className="main-view-header">
+        <h1>Matt Ha</h1>
       </div>
     );
   }
 
 };
 
-export default MainViewScreen;
+export default MainHeader;
