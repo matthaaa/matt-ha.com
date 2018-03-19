@@ -1,14 +1,9 @@
-@import 'partials/reset';
+@import '../partials/reset';
 
 $indigo: #0A122A;
 $gray: #818D92;
 
 $primary-font: 'Quicksand', sans-serif;
-
-section {
-  height: 800px;
-  padding-top: 80px;
-}
 
 main {
   padding-top: 80px;
@@ -29,15 +24,6 @@ nav {
 
   ul a:hover {
     text-decoration: underline;
-  }
-
-  ul {
-    height: 80px;
-    height: 100%;
-  }
-
-  ul li {
-    height: 100%;
   }
 
   h3 {
