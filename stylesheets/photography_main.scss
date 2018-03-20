@@ -1,0 +1,10 @@
+@import '../partials/reset';
+
+$indigo: #0A122A;
+$gray: #818D92;
+
+$primary-font: 'Quicksand', sans-serif;
+
+.photo-header-name h3 {
+  color: $gray;
+}
