@@ -5,6 +5,7 @@ $gray: #818D92;
 
 $primary-font: 'Quicksand', sans-serif;
 
-.photo-header-name h3 {
+.photo-header-name h3, h5 {
   color: $gray;
+  font-family: $primary-font;
 }
