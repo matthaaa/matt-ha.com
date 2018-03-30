@@ -5,14 +5,9 @@ $gray: #818D92;
 
 $primary-font: 'Quicksand', sans-serif;
 
-section {
-  padding-top: 80px;
-}
-
-main {
-  padding-top: 80px;
-}
-
+// ========================================
+// Main navigation bar
+// ========================================
 nav {
   height: 80px;
   padding: 0 50px;
@@ -32,6 +27,8 @@ nav {
   }
 
   ul {
+    justify-content: space-between;
+    display: flex;
     height: 80px;
     height: 100%;
   }
@@ -46,8 +43,15 @@ nav {
   }
 }
 
-nav ul {
-  justify-content: space-between;
-  display: flex;
-  height: 100%;
+// ========================================
+// Main body
+// ========================================
+main {
+  padding: 80px 50px;
+}
+
+// ========================================
+// Section
+// ========================================
+section {
 }
