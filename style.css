@@ -16,48 +16,30 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-  font-family: 'Quicksand', sans-serif;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
-
-section {
-  height: 800px;
-  padding-top: 80px;
-  font-family: 'Quicksand', sans-serif;
-}
-
-main {
-  padding-top: 80px;
-}
+  border-spacing: 0; }
 
 nav {
   height: 80px;
@@ -71,31 +53,20 @@ nav {
   left: 0;
   right: 0;
   z-index: 1000;
-  font-family: "Quicksand", sans-serif;
-}
+  font-family: "Quicksand", sans-serif; }
+  nav ul a:hover {
+    text-decoration: underline; }
+  nav ul {
+    justify-content: space-between;
+    align-items: center;
+    display: flex; }
+  nav ul li {
+    height: 100%; }
+  nav h3 {
+    font-size: 25px;
+    color: white; }
 
-nav ul a:hover {
-  text-decoration: underline;
-}
-
-nav h3 {
-  font-size: 25px;
-  color: white;
-  font-family: "Quicksand", sans-serif;
-}
-
-nav ul {
-  justify-content: space-between;
-  display: flex;
-}
-
-nav ul li:first-of-type {
-  display: flex;
-}
-
-li h3 {
-  display: flex;
-  width: 100%;
-}
+main {
+  padding: 80px 50px; }
 
 /*# sourceMappingURL=style.css.map */

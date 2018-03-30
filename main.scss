@@ -1,4 +1,4 @@
-@import '../partials/reset';
+@import 'partials/reset';
 
 $indigo: #0A122A;
 $gray: #818D92;
@@ -28,9 +28,8 @@ nav {
 
   ul {
     justify-content: space-between;
+    align-items: center;
     display: flex;
-    height: 80px;
-    height: 100%;
   }
 
   ul li {
@@ -39,7 +38,7 @@ nav {
 
   h3 {
     font-size: 25px;
-    color: $gray;
+    color: white;
   }
 }
 
