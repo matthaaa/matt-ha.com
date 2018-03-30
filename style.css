@@ -92,10 +92,25 @@ header {
   display: flex; }
 
 section {
-  font-family: "Quicksand", sans-serif;
-  padding: 100px 0px; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+  font-family: "Quicksand", sans-serif; }
   section h1 {
     font-size: 25px;
+    text-align: center;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-bottom: 1px solid #818D92; }
+  section p {
     text-align: center; }
+
+#about .about-text {
+  font-size: 20px; }
+  #about .about-text p {
+    padding: 10px 0px;
+    line-height: 28px; }
 
 /*# sourceMappingURL=style.css.map */
