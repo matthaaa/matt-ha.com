@@ -71,9 +71,9 @@ main {
 // ========================================
 header {
   font-family: $primary-font;
-  margin-top: 80px;
+  // margin-top: 80px;
   padding: 80px 50px;
-  height: 400px;
+  // height: 400px;
 }
 
 .welcome-container {
@@ -101,11 +101,12 @@ section {
   }
 
   p {
-    text-align: center;
+    // text-align: center;
   }
 }
 
 #about {
+  display: flex;
   .about-text {
     font-size: 20px;
 
@@ -118,6 +119,6 @@ section {
 
 #resume {
   .resume-section {
-    
+
   }
 }

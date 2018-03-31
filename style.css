@@ -84,9 +84,7 @@ main {
 
 header {
   font-family: "Quicksand", sans-serif;
-  margin-top: 80px;
-  padding: 80px 50px;
-  height: 400px; }
+  padding: 80px 50px; }
 
 .welcome-container {
   display: flex; }
@@ -104,13 +102,13 @@ section {
     margin-bottom: 30px;
     width: 100%;
     border-bottom: 1px solid #818D92; }
-  section p {
-    text-align: center; }
 
-#about .about-text {
-  font-size: 20px; }
-  #about .about-text p {
-    padding: 10px 0px;
-    line-height: 28px; }
+#about {
+  display: flex; }
+  #about .about-text {
+    font-size: 20px; }
+    #about .about-text p {
+      padding: 10px 0px;
+      line-height: 28px; }
 
 /*# sourceMappingURL=style.css.map */
