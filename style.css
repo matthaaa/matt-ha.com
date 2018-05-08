@@ -180,7 +180,8 @@ section {
   align-items: center;
   width: 100%;
   margin: 0px 100px;
-  padding: 40px; }
+  padding: 40px;
+  border-bottom: 1px solid #EAF4F4; }
   #projects .project-container img {
     width: 400px;
     object-fit: contain; }

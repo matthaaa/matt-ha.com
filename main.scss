@@ -231,7 +231,7 @@ section {
     width: 100%;
     margin: 0px 100px;
     padding: 40px;
-    // border-bottom: 1px solid $gray;
+    border-bottom: 1px solid $light-gray;
 
     img {
       width: 400px;
@@ -242,6 +242,10 @@ section {
       margin-top: 10px;
       margin-right: 10px;
       line-height: 20px;
+    }
+
+    .project-description {
+      
     }
   }
 
