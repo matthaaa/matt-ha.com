@@ -146,5 +146,7 @@ section {
   #projects .project-container img {
     width: 400px;
     object-fit: contain; }
+  #projects .project-container .project-subtitle {
+    margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
