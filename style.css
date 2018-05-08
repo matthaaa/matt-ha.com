@@ -119,6 +119,11 @@ section {
       padding: 10px 0px;
       line-height: 28px; }
 
+#resume .resume-section {
+  display: flex;
+  justify-content: left;
+  width: 100%; }
+
 #technologies .col {
   display: flex;
   align-items: center;
