@@ -124,6 +124,9 @@ section {
   flex-direction: column;
   justify-content: left;
   width: 100%; }
+#resume .resume-section-title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600; }
 
 #technologies .col {
   display: flex;
