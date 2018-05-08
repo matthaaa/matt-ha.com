@@ -136,11 +136,21 @@ section {
     flex-direction: column;
     justify-content: left;
     width: 100%;
+
+    h2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
   }
 
   .resume-section-title {
     font-family: $primary-font;
     font-weight: 600;
+  }
+
+  .resume-section-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
