@@ -126,12 +126,37 @@ section {
   width: 100%; }
   #resume .resume-section h2 {
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAF4F4; }
+#resume .skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%; }
+#resume .resume-experience-title {
+  margin-bottom: 4px; }
 #resume .resume-section-title {
   font-family: "Quicksand", sans-serif;
-  font-weight: 600; }
+  font-weight: 500;
+  font-size: 18px; }
+#resume .resume-experience-bulletpoint {
+  margin-bottom: 8px;
+  font-size: 18px; }
+#resume .resume-timeframe {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-style: italic; }
+#resume .resume-bulletpoint {
+  font-size: 20px; }
+#resume .skills-list {
+  margin-top: 10px;
+  margin-bottom: 15px; }
 #resume .resume-section-body {
   margin-top: 20px;
+  margin-bottom: 20px; }
+#resume .resume-education-section-body {
+  margin-top: 5px;
   margin-bottom: 20px; }
 
 #technologies .col {

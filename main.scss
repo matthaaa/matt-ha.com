@@ -131,6 +131,9 @@ section {
 }
 
 #resume {
+  h1 {
+  }
+
   .resume-section {
     display: flex;
     flex-direction: column;
@@ -140,16 +143,55 @@ section {
     h2 {
       margin-top: 20px;
       margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid $light-gray;
     }
+  }
+
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+  }
+
+  .resume-experience-title {
+    margin-bottom: 4px;
   }
 
   .resume-section-title {
     font-family: $primary-font;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .resume-experience-bulletpoint {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+
+  .resume-timeframe {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-style: italic;
+  }
+
+  .resume-bulletpoint {
+    font-size: 20px;
+  }
+
+  .skills-list {
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
 
   .resume-section-body {
     margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .resume-education-section-body {
+    margin-top: 5px;
     margin-bottom: 20px;
   }
 }
