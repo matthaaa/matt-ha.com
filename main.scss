@@ -112,7 +112,6 @@ section {
 #about {
   display: flex;
   flex-direction: row;
-  padding-bottom: 0;
 
   .profile-image {
     width: 300px;
@@ -172,7 +171,7 @@ section {
     width: 100%;
     margin: 0px 100px;
     padding: 40px;
-    border-bottom: 1px solid $gray;
+    // border-bottom: 1px solid $gray;
 
     img {
       width: 400px;
@@ -181,11 +180,22 @@ section {
 
     .project-subtitle {
       margin-top: 10px;
+      margin-right: 10px;
       line-height: 20px;
     }
   }
 
   .project-container:last-of-type {
     border: none;
+  }
+
+  .project-title {
+    display: flex;
+    align-items: baseline;
+
+    a {
+      margin-left: 5px;
+      margin-bottom: 3px;
+    }
   }
 }

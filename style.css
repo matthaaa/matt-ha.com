@@ -107,8 +107,7 @@ section {
 
 #about {
   display: flex;
-  flex-direction: row;
-  padding-bottom: 0; }
+  flex-direction: row; }
   #about .profile-image {
     width: 300px;
     height: 300px;
@@ -141,15 +140,21 @@ section {
   align-items: center;
   width: 100%;
   margin: 0px 100px;
-  padding: 40px;
-  border-bottom: 1px solid #818D92; }
+  padding: 40px; }
   #projects .project-container img {
     width: 400px;
     object-fit: contain; }
   #projects .project-container .project-subtitle {
     margin-top: 10px;
+    margin-right: 10px;
     line-height: 20px; }
 #projects .project-container:last-of-type {
   border: none; }
+#projects .project-title {
+  display: flex;
+  align-items: baseline; }
+  #projects .project-title a {
+    margin-left: 5px;
+    margin-bottom: 3px; }
 
 /*# sourceMappingURL=style.css.map */
