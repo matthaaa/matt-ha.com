@@ -121,6 +121,7 @@ section {
 
 #resume .resume-section {
   display: flex;
+  flex-direction: column;
   justify-content: left;
   width: 100%; }
 
