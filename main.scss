@@ -181,6 +181,11 @@ section {
 
     .project-subtitle {
       margin-top: 10px;
+      line-height: 20px;
     }
+  }
+
+  .project-container:last-of-type {
+    border: none;
   }
 }
