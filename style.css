@@ -67,7 +67,8 @@ nav {
     height: 80px; }
   .navigation-bar ul a:hover {
     border-bottom: 2px solid #0A122A;
-    background-color: transparent;
+    background-color: #87CEEB;
+    opacity: 0.5;
     height: 82px; }
   .navigation-bar ul {
     display: flex;
@@ -165,10 +166,17 @@ section {
   justify-content: center;
   height: 300px;
   width: 300px; }
+#technologies .dev-information {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none; }
 #technologies .col:hover {
   background-color: rgba(0, 0, 0, 0.2); }
 #technologies .col i {
   font-size: 200px; }
+#technologies .col:hover + .dev-information {
+  display: block; }
 #technologies .col svg {
   height: 200px;
   width: 200px; }

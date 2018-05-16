@@ -3,6 +3,7 @@
 $indigo: #0A122A;
 $gray: #818D92;
 $light-gray: #EAF4F4;
+$sky-blue: #87CEEB;
 
 $primary-font: 'Quicksand', sans-serif;
 
@@ -39,7 +40,8 @@ nav {
 
   ul a:hover {
     border-bottom: 2px solid $indigo;
-    background-color: transparent;
+    background-color: $sky-blue;
+    opacity: 0.5;
     height: 82px;
   }
 
@@ -208,6 +210,13 @@ section {
     width: 300px;
   }
 
+  .dev-information {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+  }
+
   .col:hover {
     background-color: rgba(0, 0, 0, 0.2);
   }
@@ -216,9 +225,16 @@ section {
     font-size: 200px;
   }
 
+  .col:hover + .dev-information {
+    display: block;
+  }
+
   .col svg {
     height: 200px;
     width: 200px;
+  }
+
+  .devicon-javascript-plain {
   }
 }
 
@@ -245,7 +261,7 @@ section {
     }
 
     .project-description {
-      
+
     }
   }
 
