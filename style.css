@@ -68,7 +68,7 @@ nav {
   .navigation-bar ul a:hover {
     border-bottom: 2px solid #0A122A;
     background-color: #87CEEB;
-    opacity: 0.5;
+    opacity: 0.8;
     height: 82px; }
   .navigation-bar ul {
     display: flex;
