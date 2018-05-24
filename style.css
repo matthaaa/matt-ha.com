@@ -160,26 +160,38 @@ section {
   margin-top: 5px;
   margin-bottom: 20px; }
 
-#technologies .col {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-  width: 300px; }
-#technologies .dev-information {
-  position: absolute;
-  left: 0;
-  right: 0;
-  display: none; }
-#technologies .col:hover {
-  background-color: rgba(0, 0, 0, 0.2); }
-#technologies .col i {
-  font-size: 200px; }
-#technologies .col:hover + .dev-information {
-  display: block; }
-#technologies .col svg {
-  height: 200px;
-  width: 200px; }
+#technologies {
+  padding-bottom: 0px; }
+  #technologies .technologies-grid {
+    width: 750px; }
+  #technologies .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    padding: 30px 0;
+    transition: 0.3s background-color, 0.5s display; }
+  #technologies .dev-information {
+    margin-top: 20px; }
+  #technologies .dev-information p {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  #technologies .col:hover {
+    background-color: rgba(135, 206, 235, 0.8); }
+  #technologies .col:hover + .dev-information {
+    display: block; }
+  #technologies .col i {
+    font-size: 200px; }
+  #technologies .col svg {
+    height: 200px;
+    width: 200px; }
 
 #projects .project-container {
   display: flex;
@@ -197,6 +209,8 @@ section {
     margin-top: 10px;
     margin-right: 10px;
     line-height: 20px; }
+  #projects .project-container .songbird-description {
+    margin-left: 15px; }
 #projects .project-container:last-of-type {
   border: none; }
 #projects .project-title {
