@@ -64,7 +64,8 @@ nav {
     align-items: center;
     color: black;
     padding: 20px 20px;
-    height: 80px; }
+    height: 80px;
+    text-decoration: none; }
   .navigation-bar ul a:hover {
     border-bottom: 2px solid #0A122A;
     background-color: #87CEEB;
@@ -163,26 +164,26 @@ section {
 #technologies {
   padding-bottom: 0px; }
   #technologies .technologies-grid {
-    width: 750px; }
+    width: 900px; }
   #technologies .col {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 250px;
-    padding: 30px 0;
-    transition: 0.3s background-color, 0.5s display; }
+    width: 280px;
+    height: 400px;
+    padding: 30px 10px;
+    margin: 10px;
+    transition: 0.3s background-color;
+    border-radius: 6px; }
   #technologies .dev-information {
-    margin-top: 20px; }
+    margin-top: 30px; }
+  #technologies .dev-information h4 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px; }
   #technologies .dev-information p {
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; }
+    text-align: center; }
   #technologies .col:hover {
     background-color: rgba(135, 206, 235, 0.8); }
   #technologies .col:hover + .dev-information {
@@ -193,31 +194,37 @@ section {
     height: 200px;
     width: 200px; }
 
-#projects .project-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin: 0px 100px;
-  padding: 40px;
-  border-bottom: 1px solid #EAF4F4; }
-  #projects .project-container img {
-    width: 400px;
-    object-fit: contain; }
-  #projects .project-container .project-subtitle {
-    margin-top: 10px;
-    margin-right: 10px;
-    line-height: 20px; }
-  #projects .project-container .songbird-description {
-    margin-left: 15px; }
-#projects .project-container:last-of-type {
-  border: none; }
-#projects .project-title {
-  display: flex;
-  align-items: baseline; }
-  #projects .project-title a {
-    margin-left: 5px;
-    margin-bottom: 3px; }
+#projects {
+  padding-bottom: 0px; }
+  #projects .project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px 100px;
+    padding: 40px;
+    border-bottom: 1px solid #EAF4F4;
+    border-radius: 6px;
+    transition: 0.3s background-color; }
+    #projects .project-container img {
+      width: 400px;
+      object-fit: contain; }
+    #projects .project-container .project-subtitle {
+      margin-top: 10px;
+      margin-right: 10px;
+      line-height: 20px; }
+    #projects .project-container .songbird-description {
+      margin-left: 15px; }
+  #projects .project-container:hover {
+    background-color: rgba(135, 206, 235, 0.8); }
+  #projects .project-container:last-of-type {
+    border: none; }
+  #projects .project-title {
+    display: flex;
+    align-items: baseline; }
+    #projects .project-title a {
+      margin-left: 5px;
+      margin-bottom: 3px; }
 
 /*# sourceMappingURL=style.css.map */
