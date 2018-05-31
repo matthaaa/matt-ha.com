@@ -226,5 +226,7 @@ section {
     #projects .project-title a {
       margin-left: 5px;
       margin-bottom: 3px; }
+  #projects #contact .contact-body {
+    display: flex; }
 
 /*# sourceMappingURL=style.css.map */
