@@ -276,6 +276,7 @@ section {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    max-width: 1020px;
     margin: 0px 100px;
     padding: 40px;
     border-bottom: 1px solid $light-gray;
@@ -323,14 +324,17 @@ section {
 
   }
 
+  .contact-body {
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+  }
+
   #contact {
 
-    .contact-body {
-      display: flex;
-    }
 
     .contact-section {
-
+      font-size: 16pt;
     }
   }
 }
