@@ -320,21 +320,18 @@ section {
     }
   }
 
-  #resume {
+}
 
-  }
+#resume {
 
-  .contact-body {
-    display: flex;
-    flex-direction: row;
-    width: 750px;
-  }
+}
 
-  #contact {
+.contact-body {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+}
 
-
-    .contact-section {
-      font-size: 16pt;
-    }
-  }
+#contact {
+  width: 750px;
 }

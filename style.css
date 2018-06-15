@@ -231,7 +231,7 @@ section {
     display: flex;
     flex-direction: row;
     width: 750px; }
-  #projects #contact .contact-section {
-    font-size: 16pt; }
+  #projects #contact {
+    width: 750px; }
 
 /*# sourceMappingURL=style.css.map */
