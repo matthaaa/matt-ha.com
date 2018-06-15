@@ -227,11 +227,11 @@ section {
     #projects .project-title a {
       margin-left: 5px;
       margin-bottom: 3px; }
-  #projects .contact-body {
-    display: flex;
-    flex-direction: row;
-    width: 750px; }
-  #projects #contact {
-    width: 750px; }
+
+#contact .contact-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 750px; }
 
 /*# sourceMappingURL=style.css.map */

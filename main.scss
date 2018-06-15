@@ -326,12 +326,12 @@ section {
 
 }
 
-.contact-body {
-  display: flex;
-  flex-direction: row;
-  width: 750px;
-}
 
 #contact {
-  width: 750px;
+  .contact-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px;
+  }
 }
