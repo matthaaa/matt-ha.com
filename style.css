@@ -67,8 +67,9 @@ nav {
     height: 80px;
     text-decoration: none; }
   .navigation-bar ul a:hover {
-    border-bottom: 2px solid #0A122A;
+    border-bottom: 2px solid #87CEEB;
     background-color: #87CEEB;
+    color: white;
     opacity: 0.8;
     height: 82px; }
   .navigation-bar ul {
