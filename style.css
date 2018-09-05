@@ -69,6 +69,8 @@ nav {
   .navigation-bar ul a:hover {
     border-bottom: 2px solid #87CEEB;
     background-color: #87CEEB;
+    transition: 0.8s border-bottom;
+    transition: 0.8s background-color;
     color: white;
     opacity: 0.8;
     height: 82px; }
