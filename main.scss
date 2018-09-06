@@ -42,8 +42,7 @@ nav {
   ul a:hover {
     border-bottom: 2px solid $sky-blue;
     background-color: $sky-blue;
-    transition: 0.8s border-bottom;
-    transition: 0.8s background-color;
+    transition: 0.2s color;
     color: white;
     opacity: 0.8;
     height: 82px;
